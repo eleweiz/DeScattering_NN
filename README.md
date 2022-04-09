@@ -47,12 +47,12 @@ There are 3 steps in total in this shared code to train and test the model:
 
 There are 4 steps in total in this shared code to train and test the model:
 
-**Step 1**. Generate training data with **main_forward_Scarlet.m**: if you want to train a EYFP model, please use **main_forward_EYFP.m** instead.
+**Step 1**. Generate training data with **main_forward_Scarlet.m**: If you want to train a EYFP model, please use **main_forward_EYFP.m** instead.
 
-**Step 2**. Train the network with **main_inverse.py**: remember to change the training data file names in Lines 10 and 16 if you train a EYFP model.
+**Step 2**. Train the network with **main_inverse.py**: Remember to change the training data file names in Lines 10 and 16 if you train a EYFP model.
 
-**Step 3**. Generate testing data with **TestData_Experiment_Scarlet.m**, if you want to generate a EYFP test data, please use **TestData_Experiment_EYFP.m** instead.
+**Step 3**. Generate testing data with **TestData_Experiment_Scarlet.m**: If you want to generate a EYFP test data, please use **TestData_Experiment_EYFP.m** instead.
 
-**Step 4**. Test and save the test results with the file **Save_data_Experiment_Scarlet.py**: if you want to save a EYFP results, please use **TestData_Experiment_EYFP.py** instead. Remember to replace the trained model name in Line 25. 
+**Step 4**. Test and save the test results with the file **Save_data_Experiment_Scarlet.py**: If you want to save a EYFP results, please use **TestData_Experiment_EYFP.py** instead. Remember to replace the trained model name in Line 25. 
 
 **To display the results**: Use Matlab files in folder **Results** with **Results_Demo_Numerical.m**, **Results_Demo_Experiments_Scarlet.m**, and **Results_Demo_Experiments_EYFP.m** being numerical results, experiments for Scarlet, and experiments for EYFP, respectively.
