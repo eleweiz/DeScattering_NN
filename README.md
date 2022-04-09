@@ -41,11 +41,12 @@ There are 3 steps in total in this shared code to train and test the model:
 **Step 3**. Test and Save the test results with the file **Save_data.py**: Remember to replace the trained model name at Line 32.
 
 
-## Real example (Spine):
-**The real data used in the manuscript**
+## Real example (Spine): The real data used in the paper
+
 **Data downloading**: Download the data from Zenodo:XXXXX. Put the _data under the current path.
 
 There are 4 steps in total in this shared code to train and test the model:
+
 **Step 1**. Generate training data with **main_forward_Scarlet.m**: if you want to train a EYFP model, please use **main_forward_EYFP.m** instead.
 
 **Step 2**. Train the network with **main_inverse.py**: remember to change the training data file names in Lines 10 and 16 if you train a EYFP model.
