@@ -1,0 +1,1 @@
+Put your PSTPM data with tif format in this folder. 
