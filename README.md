@@ -43,7 +43,7 @@ There are 3 steps in total in this shared code to train and test the model:
 
 ## Real example (Spine): The real data used in the paper
 
-**Data downloading**: Download the data from Zenodo:XXXXX. Put the _data under the current path.
+**Data downloading**: Download the data from Zenodo: https://doi.org/10.5281/zenodo.6453404. Put the _data under the current path.
 
 There are 4 steps in total in this shared code to train and test the model:
 
